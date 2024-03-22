@@ -1,9 +1,9 @@
-config ?= release
+config ?= Debug
 arch ?= native
 tune ?= generic
 build_flags ?= -j2
 llvm_archs ?= X86;ARM;AArch64;WebAssembly;RISCV
-llvm_config ?= Release
+llvm_config ?= Debug
 llc_arch ?= x86-64
 pic_flag ?=
 
